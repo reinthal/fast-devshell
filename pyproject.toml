@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "project2"
+name = "fast-devshell"
 version = "0.1.0"
 description = ""
 authors = ["Alexander Reinthal <email@reinthal.me>"]
