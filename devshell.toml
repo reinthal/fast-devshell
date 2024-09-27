@@ -1,0 +1,25 @@
+
+# https://numtide.github.io/devshell
+[[commands]]
+help = "Install dependencies"
+name = "install"
+command = "poetry install"
+
+[[commands]]
+help = " ⚡⚡⚡Super Fast Devshells with python!"
+name = "faster"
+command = "install && poetry run uvicorn fast:app"
+
+
+[[commands]]
+
+package = "poetry"
+
+
+[devshell]
+
+packages = [
+"poetry"
+]
+
+
